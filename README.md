@@ -226,7 +226,3 @@ sem_post(mutex);
 **No busy-waiting:** The main loop uses `select()` with a 100ms timeout on stdin. This allows the process to check for new messages periodically without blocking user input or spinning the CPU.
 
 ---
-
-## License
-
-MIT
